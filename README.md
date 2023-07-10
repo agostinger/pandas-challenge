@@ -40,8 +40,8 @@ of students. The lower spend per student showed a higher passing rate than the s
 as there are a variety of factors that could influence this. The other observation made was students in different grades at the same school had very
 consistent grades. Thus, a student's grade level appeared to not be a factor in passing test scores.
 
-Cite: Peer collaboration with Ryan Himes and Juliet Hamilton.
-Cite: AskBCS learning assistant (MBush) assisted with code on school types below, which was used to group the school name and type.
-    school_types = school_data.set_index(["school_name"])["type"]
-Cite: ChatGPT utilized to code a conversion of an object to a float data type below. This reversed the formatting of the field in order to perform calculations.
-    school_spending_df["Per Student Budget"] = school_spending_df["Per Student Budget"].replace({'\$': '', ',': ''}, regex=True).astype(float)
+Citations: Peer collaboration with Ryan Himes and Juliet Hamilton.
+AskBCS learning assistant (MBush) assisted with code on school types below, which was used to group the school name and type.
+    school_types = school_data.set_index(["school_name"])["type"].
+ChatGPT utilized to code a conversion of an object to a float data type. This reversed the formatting of the field in order to perform calculations.
+    school_spending_df["Per Student Budget"] = school_spending_df["Per Student Budget"].replace({'\$': '', ',': ''}, regex=True).astype(float).
