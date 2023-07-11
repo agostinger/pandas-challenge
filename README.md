@@ -38,5 +38,4 @@ Lastly, a few interesting observations were made. Based on the analysis performe
 Citations: Peer collaboration with Ryan Himes and Juliet Hamilton.
 AskBCS learning assistant (MBush) assisted with code on school types, which was used to group the school name and type.
     school_types = school_data.set_index(["school_name"])["type"].
-ChatGPT utilized to code a conversion of an object to a float data type. This reversed the formatting of the field in order to perform calculations.
-    school_spending_df["Per Student Budget"] = school_spending_df["Per Student Budget"].replace({'\$': '', ',': ''}, regex=True).astype(float).
+
